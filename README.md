@@ -1,7 +1,7 @@
 # Flutter Applications
 
 **BMI Calculator** - Body Mass Index calculator
-**Temperature Converter** - Celsius/Fahrenheit converter
+**Temperature Converter** - Celsius/Fahrenheit/Kelvin converter
 
 
 ## Getting Started
