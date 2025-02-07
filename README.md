@@ -1,8 +1,9 @@
 # Flutter Applications
 
-**BMI Calculator** - Body Mass Index calculator <br>
-**Temperature Converter** - Celsius/Fahrenheit/Kelvin converter <br>
-**Age_calculate** - Calculates your age<br>
+**bmi_app** - Body Mass Index calculator <br>
+**temperature_app** - Celsius/Fahrenheit/Kelvin converter <br>
+**age_calculate** - Calculates your age<br>
+**stopwatch_app** - Basic Stopwatch app<br>
 
 
 ## Getting Started
