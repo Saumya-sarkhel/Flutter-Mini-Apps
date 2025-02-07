@@ -4,6 +4,9 @@
 **temperature_app** - Celsius/Fahrenheit/Kelvin converter <br>
 **age_calculate** - Calculates your age<br>
 **stopwatch_app** - Basic Stopwatch app<br>
+**currency_converter** - Currency converter<br>
+**voter_app** - Voter eligibility checker<br>
+
 
 
 ## Getting Started

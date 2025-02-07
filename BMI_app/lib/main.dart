@@ -19,6 +19,7 @@ class BMIHome extends StatefulWidget {
   const BMIHome({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _BMIHomeState createState() => _BMIHomeState();
 }
 
@@ -90,7 +91,8 @@ class _BMIHomeState extends State<BMIHome> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text('Enter Your Details',
-                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                          style: TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.bold)),
                       const SizedBox(height: 16),
                       TextFormField(
                         controller: weightController,
@@ -123,8 +125,8 @@ class _BMIHomeState extends State<BMIHome> {
               ElevatedButton.icon(
                 onPressed: calculateBMI,
                 icon: const Icon(Icons.calculate),
-                label: const Text('Calculate BMI',
-                    style: TextStyle(fontSize: 16)),
+                label:
+                    const Text('Calculate BMI', style: TextStyle(fontSize: 16)),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue[800],
                   foregroundColor: Colors.white,
@@ -141,6 +143,7 @@ class _BMIHomeState extends State<BMIHome> {
                   decoration: BoxDecoration(
                     color: Colors.grey[100],
                     borderRadius: BorderRadius.circular(8),
+                    // ignore: deprecated_member_use
                     border: Border.all(color: resultColor.withOpacity(0.2)),
                   ),
                   child: Column(

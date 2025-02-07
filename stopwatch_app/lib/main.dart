@@ -6,7 +6,10 @@ void main() {
 }
 
 class StopwatchApp extends StatefulWidget {
+  const StopwatchApp({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _StopwatchAppState createState() => _StopwatchAppState();
 }
 
@@ -15,7 +18,7 @@ class _StopwatchAppState extends State<StopwatchApp> {
   Duration _elapsed = Duration.zero; // Track the elapsed time
   Timer? _timer;
   bool _isRunning = false;
-  List<String> _lapTimes = []; // Store top three times
+  final List<String> _lapTimes = []; // Store top three times
 
   void _startTimer() {
     _startTime = DateTime.now();
