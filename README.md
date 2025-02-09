@@ -6,10 +6,12 @@
 **stopwatch_app** - Basic Stopwatch app<br>
 **currency_converter** - Currency converter<br>
 **voter_app** - Voter eligibility checker<br>
+**login_page** - Login page with validation<br>
 
 
 
 ## Getting Started
+- Your main code is in the lib folder in main.dart file
 
 ### Prerequisites
 - Flutter SDK (latest stable version)
